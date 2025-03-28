@@ -1,0 +1,21 @@
+css = Case cading style sheets ✅
+html  =  Hyper text markup language ✅
+
+
+CSS  = css hamari website me styling ka kam krti hai jaise color , font color , background color & etc.
+
+Connector -  html file and css file ko connect krna
+Selector =  html ke tag / elements , id & class
+; =  semicolon
+
+# =  id
+. =  class
+
+
+inline = line ke ander likha hua css ka code inline css hota hai
+
+
+internal = hmtl ke ander aur body tag ke upar aap jo style tag ka use krke css likhte ho use hm internal css kahte hai
+
+
+external = hmtl ke bahar yani eak new css file bna kar hm apna code likhte hai or style file and html file ko connect krte hai
