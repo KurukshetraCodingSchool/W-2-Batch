@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 html,body{
     width: 100%;
@@ -26,4 +27,8 @@ h1{
     background-color: rgb(115, 131, 131);
     border-radius: 50%;
     text-align: center;
+}
+
+input[type = "text"]{
+    /* color: red; */
 }
