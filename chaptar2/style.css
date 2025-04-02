@@ -30,5 +30,27 @@ h1{
 }
 
 input[type = "text"]{
-    /* color: red; */
+    color: red; 
 }
+
+/* Grouping Selector */
+h2, h3 , p, input{
+    color:blue;
+}
+
+div>p,div>h4{
+    color: yellow;
+}
+
+/* Pseudo */
+#alok{
+    position: relative;
+}
+#alok::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: red;
+}
+
