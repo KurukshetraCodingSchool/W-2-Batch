@@ -1,12 +1,12 @@
 2. CSS Selectors & Properties
-Basic Selectors (Tag, Class, ID)
-Attribute Selectors
-Universal Selector
-Grouping Selectors
-Combining Selectors
+Basic Selectors (Tag, Class, ID) ✅
+Attribute Selectors ✅
+Universal Selector ✅
+Grouping Selectors ✅
+Combining Selectors 
  type of Combining Selector
- 1. Desecendant Selector  = div p{}
- 2. Child Selector  ul>li{}
- 3. Adjancent Sibling Selector h1+p{}
- 4. General Sibling Selector = h1~p{}
-Pseudo-classes and Pseudo-elements
+ 1. Desecendant Selector  = div p{} ✅
+ 2. Child Selector  ul>li{} ✅
+ 3. Adjancent Sibling Selector h1+p{} ❌
+ 4. General Sibling Selector = h1~p{} ❌
+Pseudo-classes and Pseudo-elements 
