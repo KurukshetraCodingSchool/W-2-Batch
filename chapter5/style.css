@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Ravi;
+    src: url(./Urbanjungledemo-ymAm.otf);
+}
+@font-face {
+    font-family: Alok;
+    src: url(./JungleFlame-nAAv4.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+        font-family: Alok;
+        font-weight: 900;
+        font-size: 200px;
+        font-style:italic;
+        color: red;
+        text-align: start;
+        text-decoration:overline;
+        text-transform: capitalize;
+        letter-spacing: -10px;
+}

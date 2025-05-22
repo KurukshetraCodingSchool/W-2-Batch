@@ -1,0 +1,19 @@
+
+#box{
+width: 400px;
+height: 400px;
+background-color: aquamarine;
+display: block;
+
+}
+
+/* inline - block and block are same */
+/* none and inline also both are same  */
+#box2{
+    width: 400px;
+    height: 5px;
+    background-color: rgb(27, 155, 155);
+margin-top: 50px;
+
+}
+
