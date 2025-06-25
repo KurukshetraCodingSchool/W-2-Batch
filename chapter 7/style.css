@@ -16,3 +16,8 @@ html,body{
     border-right: 2px solid black;
     box-shadow: 0px 5px 10px  yellow;
 }
+
+h1{
+    font-size: 50px;
+    box-shadow: 0px 5px 20px black;
+}
