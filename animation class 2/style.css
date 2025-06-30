@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#main{
+    width: 200%;
+    height: 200px;
+     white-space: nowrap;
+     
+}
+#box{
+    width: 50%;
+    height:100%;
+    background-color: aqua;
+   display: inline-block;
+ 
+     animation: move;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* position: absolute; */
+    
+}
+
+
+img{
+    width: 215px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    
+}
+
+@keyframes move {
+    0%{
+        transform: translate(0%);
+        
+    }
+    100%{
+        transform: translate(-100%);
+    }
+}

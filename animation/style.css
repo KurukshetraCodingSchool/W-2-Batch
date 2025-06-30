@@ -1,8 +1,7 @@
 *{
-
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 html,body{
     width: 100%;
@@ -13,44 +12,37 @@ html,body{
     height: 200px;
     background-color: red;
     position: absolute;
-    animation: move  5s 1s linear infinite;
-    
+    animation: move 5s linear 1s infinite forwards;
 }
 
 
-@keyframes move
- {
-    0%{
+@keyframes move{
+   0%{
         left: 0%;
-       top: 0;
-       border: 15%;
-       background-color: red;
-    }
-    25%{
-      left: 85%;
-      top: 0%;
-      border-radius: 25%;
-      background-color: black;
-    }
-50%{
-     left: 85%;
-      top: 70%;
-      border-radius: 35%;
-      background-color: aqua;
-}
+        top: 0%;
+        background-color: red;
+        border-radius: 10%;
+   }
+   20%{
+    left: 85%;
+    top: 0%;
+    background-color: yellow;
+    border-radius: 20%;
+   }
+   40%{
+    left: 85%;
+    top: 72%;
+    background-color: black;
 
-75%{
-     left: 0%;
-      top: 70%;
-      border-radius: 40%;
-      background-color: blue;
-}
+   }
+   60%{
+    left: 0%;
+    top: 72%;
+    border-radius: 50%;
 
-
-    100%{
-        left: 0%;
+   }
+   100%{
+       left: 0%;
        top: 0%;
-       border-radius: 50%;
-    }
-    
+   }
 }
