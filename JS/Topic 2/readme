@@ -1,0 +1,7 @@
+variable is a container jo ki value ko store krne ka kam krta hai. Var , let . const
+
+var = var is variable type jo ki value ko store krta hai and iski value kabhi kabhi hm change kr skte hai.
+let = let is variable type jo ki value ko store krta hai and iski value kabhi kabhi hm change kr skte hai.
+const = Const ki value hm kabhi change nhi kr skte.
+
+a , b , c is a variable
