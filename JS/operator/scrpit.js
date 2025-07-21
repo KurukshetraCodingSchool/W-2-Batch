@@ -61,7 +61,8 @@ console.log(f); // 9
 
 let x = 1; 
 let y = x++ - --x + ++x - x--; 
-        // 1 - 1  + 2 - 2
+//   x = 1
+        // 1 - 1 + 2 - 2 = 0
 console.log(y); 
 console.log(x); 
 // y aur x ka final output kya hoga?
@@ -69,9 +70,56 @@ console.log(x);
 //  x = 1
 
 
+let p = 2; 
+let q = ++p * p++; 
+     // 3*3
+//      p = 4
+console.log(q); 
+console.log(p);
+
+
+let r = 10; 
+let s = --r / r--; 
+     // 9 / 9 = 1
+// r = 8
+console.log(r);  // 8
+console.log(s); // 1
+
+
+let j = 3; 
+let k = j++ - --j + j++ - j--; 
+
+console.log(j);  // 3
+console.log(k); // -1
 
 // Assignment
+//  = 
+ let g = 5;
+//  g == 5
+ g = 10; 
+//  x + y = 10
+//  +=
+     g *= 5
+//   g =  g*5
+  console.log(g)
+//  -=
+//  *=
+//  /=
+//  **=
 // Comparison
+// == 
+// ===
+// > =  grater than
+// < =  less then 
+// >= =  grater than equal
+// <= =  less than equal
+
+let ravi = 21
+let alok = 22
+
+console.log(alok<ravi)
+
+
 // Logical
 
 // and aur
