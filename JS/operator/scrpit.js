@@ -114,17 +114,62 @@ console.log(k); // -1
 // >= =  grater than equal
 // <= =  less than equal
 
-let ravi = 21
-let alok = 22
+// let ravi = 21
+// let alok = 22
 
-console.log(alok<ravi)
+// console.log(alok<ravi)
 
+let alok = "21" // string
+let ravi = 21  // number 
+
+console.log(alok ==  ravi)  // true
+
+console.log(alok ===  ravi) // fasle
+
+
+let jagge = 20;
+let swati = 21;
+
+console.log(swati>jagge) // true
+console.log(swati<jagge) // false
+
+let jagge1 = 21;
+let swati1 = 21;
+
+console.log(swati1>jagge1) // false
+console.log(swati1<jagge1) // false
+
+console.log(swati1>=jagge1) // true
+console.log(swati1<=jagge1) // true
 
 // Logical
 
-// and aur
-// or athva
-// not nahi
+
+
+// and aur  do ya do se adhik condition ke upar lagta hai
+// or athva =  do  ya do se adhik condition ke upar lagta hai
+// not nahi =  single condition ke upar lgta hai
+
+// And -  Goa  &&  
+// R      j    = Result
+// ❌     ✅  = ❌
+// ✅     ✅  = ❌
+// ❌     ❌  = ❌
+// ✅     ✅  = ✅ 
+
+// OR  -  Movie  ||
+// R      j    = Result
+// ✅     ✅  = ✅ 
+// ❌     ✅  = ✅
+// ✅     ❌  = ✅
+// ❌     ❌  = ❌
+
+
+let and1 = 20;
+let and2 = 25;
+
+console.log(and1<and2 || and1>and2) // true
+console.log(and1<and2 && and1>and2) // false
 
 // ternary
 // ~
